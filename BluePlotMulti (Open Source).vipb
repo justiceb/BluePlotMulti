@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-02-10 20:20:17" Modified_Date="2023-02-10 20:33:57" Creator="Brent Justice" Comments="" ID="49b3ff14e627f35e0c6c76a7e97279dd">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-02-10 20:20:17" Modified_Date="2023-02-12 10:41:47" Creator="Brent Justice" Comments="" ID="0c8c1e534e46a38172ebdb8642e3a5bf">
   <Library_General_Settings>
     <Package_File_Name>Brent_Justice_lib_BluePlotMulti_(Open_Source)</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.1.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -18,10 +18,10 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <External_Dependencies>blue_origin_lib_bluejsontextserializer &gt;= 3.4.0.21</External_Dependencies>
-      <External_Dependencies>blue_origin_lib_blueplot_(open_source) &gt;= 1.4.5.12</External_Dependencies>
+      <External_Dependencies>blue_origin_lib_blueplot_(open_source) &gt;= 1.4.6.13</External_Dependencies>
       <External_Dependencies>blue_origin_lib_blueserialization &gt;= 2.3.3.65</External_Dependencies>
       <External_Dependencies>blue_origin_lib_blueserializationprovidershared &gt;= 1.5.1.7</External_Dependencies>
-      <External_Dependencies>illuminatedg_lib_ig_oopanel &gt;= 0.2.0.25</External_Dependencies>
+      <External_Dependencies>illuminatedg_lib_ig_oopanel &gt;= 0.2.0.26</External_Dependencies>
       <External_Dependencies>jdp_science_jsontext &gt;= 1.7.0.118</External_Dependencies>
       <External_Dependencies>jdp_science_lib_common_utilities &gt;= 1.4.1.18</External_Dependencies>
       <External_Dependencies>mgi_lib_application_control &gt;= 1.1.1.10</External_Dependencies>
@@ -32,10 +32,10 @@
       <External_Dependencies>oglib_lvdata &gt;= 5.0.0.27</External_Dependencies>
       <External_Dependencies>wiresmith_technology_lib_futures &gt;= 0.1.0.8</External_Dependencies>
       <Direct_Dependencies>blue_origin_lib_bluejsontextserializer-3.4.0.21</Direct_Dependencies>
-      <Direct_Dependencies>blue_origin_lib_blueplot_(open_source)-1.4.5.12</Direct_Dependencies>
+      <Direct_Dependencies>blue_origin_lib_blueplot_(open_source)-1.4.6.13</Direct_Dependencies>
       <Direct_Dependencies>blue_origin_lib_blueserialization-2.3.3.65</Direct_Dependencies>
       <Direct_Dependencies>blue_origin_lib_blueserializationprovidershared-1.5.1.7</Direct_Dependencies>
-      <Direct_Dependencies>illuminatedg_lib_ig_oopanel-0.2.0.25</Direct_Dependencies>
+      <Direct_Dependencies>illuminatedg_lib_ig_oopanel-0.2.0.26</Direct_Dependencies>
       <Direct_Dependencies>jdp_science_jsontext-1.7.0.118</Direct_Dependencies>
       <Direct_Dependencies>jdp_science_lib_common_utilities-1.4.1.18</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_application_control-1.1.1.10</Direct_Dependencies>
@@ -62,8 +62,8 @@
 Features:
 - Quickly switch between pre-made multi-panel layouts
 - Save layout (which captures all plot configuration)
-- Load layout
-- Uses IG OOPanel library</Description>
+- Load layout (which captures all plot configuration)
+- Uses IG OOPanel library (You will need to understand this library to use this multiplot library)</Description>
       <Copyright/>
       <Packager/>
       <URL>https://github.com/justiceb/BluePlotMulti</URL>
@@ -263,7 +263,7 @@ Features:
         <Path>Source\Classes\MultiPlotPanel\New MultiBluePlot.vi</Path>
         <VI_Title>New MultiBluePlot Panel</VI_Title>
       </Items_Data>
-      <GUID>F1FD52256EF569123A345052BD1FC2B2</GUID>
+      <GUID>D61F496878A685B5943A949D89185629</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
