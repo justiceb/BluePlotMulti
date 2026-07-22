@@ -11,8 +11,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="MultiStokePlot.lvlib" Type="Library" URL="../MultiStokePlot.lvlib"/>
-		<Item Name="MultiStokePlotDemo.lvlib" Type="Library" URL="../Demo/MultiStokePlotDemo.lvlib"/>
+		<Item Name="MultiRocketPlotDemo.lvlib" Type="Library" URL="../Demo/MultiRocketPlotDemo.lvlib"/>
+		<Item Name="MultiRocketPlotPanel.lvclass" Type="LVClass" URL="../Classes/MultiPlotPanel/MultiRocketPlotPanel.lvclass"/>
+		<Item Name="Panel Movement Center Maximize.lvlib" Type="Library" URL="../Panel Movement Center Maximize/Panel Movement Center Maximize.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Autocomplete popup.lvlib" Type="Library" URL="/&lt;userlib&gt;/bjustice/RocketPlot/SubVIs/Autocomplete popup/Autocomplete popup.lvlib"/>
@@ -179,11 +180,6 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Bounds Size Conversion.vi" Type="VI" URL="../Panel Movement Center Maximize/Bounds Size Conversion.vi"/>
-			<Item Name="Calling VI Ref If Not Valid.vi" Type="VI" URL="../Panel Movement Center Maximize/Calling VI Ref If Not Valid.vi"/>
-			<Item Name="Center VI on Monitor Core.vi" Type="VI" URL="../Panel Movement Center Maximize/Center VI on Monitor Core.vi"/>
-			<Item Name="Center VI on Monitor.vi" Type="VI" URL="../Panel Movement Center Maximize/Center VI on Monitor.vi"/>
-			<Item Name="Get Mouse Position.vi" Type="VI" URL="../Panel Movement Center Maximize/Get Mouse Position.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
