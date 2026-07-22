@@ -9,6 +9,4 @@
 
 </Property>
 	<Item Name="MultiPlotPanel.lvclass" Type="LVClass" URL="../Classes/MultiPlotPanel/MultiPlotPanel.lvclass"/>
-	<Item Name="SinglePlotPanel.lvclass" Type="LVClass" URL="../Classes/SinglePlotPanel/SinglePlotPanel.lvclass"/>
-	<Item Name="BlueMultiPlotConfig.lvclass" Type="LVClass" URL="../Classes/BlueMultiPlotConfig/BlueMultiPlotConfig.lvclass"/>
 </Library>
