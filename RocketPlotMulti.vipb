@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-07-22 01:52:54" Modified_Date="2026-07-22 01:59:25" Creator="Brent Justice" Comments="" ID="ab7edd7a543f8bd478b8ec33d5a1b38c">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-07-22 01:52:54" Modified_Date="2026-07-22 12:30:17" Creator="Brent Justice" Comments="" ID="5d32c6fd91effc07c88db1d23540e6f5">
   <Library_General_Settings>
     <Package_File_Name>BJustice_lib_RocketPlotMulti</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.1.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -19,8 +19,8 @@
     <Package_Dependencies>
       <External_Dependencies>bjustice_lib_ring_buffer_for_time_series_data &gt;= 1.2.1.10</External_Dependencies>
       <External_Dependencies>bjustice_lib_ring_buffer_for_time_series_data_strict_accessor &gt;= 1.4.0.20</External_Dependencies>
-      <External_Dependencies>bjustice_lib_rocketplot &gt;= 1.1.0.2</External_Dependencies>
-      <External_Dependencies>bjustice_lib_tipstripoopanel &gt;= 1.1.0.3</External_Dependencies>
+      <External_Dependencies>bjustice_lib_rocketplot &gt;= 1.1.1.3</External_Dependencies>
+      <External_Dependencies>bjustice_lib_tipstripoopanel &gt;= 1.2.0.4</External_Dependencies>
       <External_Dependencies>illuminated_g_lib_ig_execanchor &gt;= 1.0.1.3</External_Dependencies>
       <External_Dependencies>illuminatedg_lib_ig_oopanel &gt;= 0.5.1.38</External_Dependencies>
       <External_Dependencies>jdp_science_jsontext &gt;= 1.9.1.125</External_Dependencies>
@@ -35,8 +35,8 @@
       <External_Dependencies>wiresmith_technology_lib_futures &gt;= 0.1.0.8</External_Dependencies>
       <Direct_Dependencies>bjustice_lib_ring_buffer_for_time_series_data-1.2.1.10</Direct_Dependencies>
       <Direct_Dependencies>bjustice_lib_ring_buffer_for_time_series_data_strict_accessor-1.4.0.20</Direct_Dependencies>
-      <Direct_Dependencies>bjustice_lib_rocketplot-1.1.0.2</Direct_Dependencies>
-      <Direct_Dependencies>bjustice_lib_tipstripoopanel-1.1.0.3</Direct_Dependencies>
+      <Direct_Dependencies>bjustice_lib_rocketplot-1.1.1.3</Direct_Dependencies>
+      <Direct_Dependencies>bjustice_lib_tipstripoopanel-1.2.0.4</Direct_Dependencies>
       <Direct_Dependencies>illuminated_g_lib_ig_execanchor-1.0.1.3</Direct_Dependencies>
       <Direct_Dependencies>illuminatedg_lib_ig_oopanel-0.5.1.38</Direct_Dependencies>
       <Direct_Dependencies>jdp_science_jsontext-1.9.1.125</Direct_Dependencies>
@@ -144,9 +144,6 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Compile_Exclusions>
-        <Path/>
-      </Compile_Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
@@ -281,7 +278,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Demo.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Multi RocketPlot Demo</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -292,7 +289,7 @@
         <Path>Source\Demo\Demo.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B456449AD1447B50DE4BABB0B144E108</GUID>
+      <GUID>1E40110B0C414E5296F0CFEF45FE8ACF</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

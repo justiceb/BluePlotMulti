@@ -20,13 +20,7 @@
 				<Item Name="Autocomplete Textbox.lvlib" Type="Library" URL="/&lt;userlib&gt;/bjustice/RocketPlot/SubVIs/Autocomplete Textbox/Autocomplete Textbox.lvlib"/>
 				<Item Name="BjusticePlotHandle.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/bjustice/RocketPlot/Classes/BjusticePlotHandle/BjusticePlotHandle.lvclass"/>
 				<Item Name="CollapsePanel.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/bjustice/RocketPlot/SubVIs/CollapsePanel/CollapsePanel.lvclass"/>
-				<Item Name="MGI Caller&apos;s VI Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference/MGI Caller&apos;s VI Reference.vi"/>
-				<Item Name="MGI Current VI&apos;s Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference/MGI Current VI&apos;s Reference.vi"/>
-				<Item Name="MGI Level&apos;s VI Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference/MGI Level&apos;s VI Reference.vi"/>
-				<Item Name="MGI Origin at Top Left.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Origin at Top Left.vi"/>
 				<Item Name="MGI Position to Array Index.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Position to Array Index.vi"/>
-				<Item Name="MGI Top Level VI Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference/MGI Top Level VI Reference.vi"/>
-				<Item Name="MGI VI Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference.vi"/>
 				<Item Name="NIringPlotHandle.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/bjustice/RocketPlot/Classes/NIringPlotHandle/NIringPlotHandle.lvclass"/>
 				<Item Name="openg_application_control.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/openg_application_control.lvlib"/>
 				<Item Name="openg_array.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/openg_array.lvlib"/>
@@ -194,6 +188,48 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Multi RocketPlot Demo" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{556ABFD4-3CB0-4354-9EF7-8161377A8999}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{FEAA94CF-84AF-4A13-A5F2-4E913C5A02C7}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{25F30EF0-6709-4562-9162-480B63BC4403}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Multi RocketPlot Demo</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Multi RocketPlot Demo</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{55BD38C3-4A1C-4F38-9F8A-5FCC414C53DF}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Multi RocketPlot Demo.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Multi RocketPlot Demo/Multi RocketPlot Demo.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Multi RocketPlot Demo/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C2209FC3-27A7-4037-9D09-58729ECE1647}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MultiRocketPlotDemo.lvlib/Demo.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Stoke Space</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Multi RocketPlot Demo</Property>
+				<Property Name="TgtF_internalName" Type="Str">Multi RocketPlot Demo</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2026 Stoke Space</Property>
+				<Property Name="TgtF_productName" Type="Str">Multi RocketPlot Demo</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{0CF19F00-B460-4FC9-A079-3FFA20836817}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Multi RocketPlot Demo.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
